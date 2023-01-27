@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'te-dotnet6-linux-non-container'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E3A1A51C040144BB98ED0552F1D4FC14 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_765BB4F0ED4845878085FF7C3C92E12C }}
           package: .
